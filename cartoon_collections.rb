@@ -8,6 +8,7 @@ def summon_captain_planet(elements)
   elements.collect do |element|
     element.capitalize!
     element << "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
